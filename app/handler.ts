@@ -7,17 +7,17 @@ dotenv.config({
   path: dotenvPath,
 });
 import { CardController } from './controller/card.controller';
-const booksController = new CardController();
+const cardsController = new CardController();
 
 export const create: Handler = (event: any, context: Context) => {
   console.log(context.awsRequestId);
-  return booksController.create(event);
+  return cardsController.create(event);
 };
 
 
 export const findOneByToken: Handler = (event: any, context: Context) => {
   console.log(context.awsRequestId);
-  return booksController.findOneByToken(event);
+  return cardsController.findOneByToken(event);
 };
 
 

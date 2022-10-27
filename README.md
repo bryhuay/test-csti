@@ -13,7 +13,7 @@ API REST DE GENRACION DE TOKENS POR TARJETA
 ### AMBIENTE LOCAL
 
 * Ejecutar ```npm install``` para instalar todas las dependencias.
-* Ejecutar ```npm run local``` para ejecutarlo en un ambiente local. 
+* Ejecutar ```npm run start``` para ejecutarlo en un ambiente local. 
 
 ### DESPLIEGUE EN AWS:
 * Se debe considerar tener configurado AWS CLI con sus respectivas credenciales
